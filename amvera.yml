@@ -1,0 +1,10 @@
+meta:
+  environment: node
+  toolchain:
+    name: npm
+    version: 18
+build:
+  dependencies:
+    - npm_install
+run:
+  command: node index.js
