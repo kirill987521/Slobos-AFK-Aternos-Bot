@@ -2076,4 +2076,6 @@ addLog(
 );
 addLog("=".repeat(50));
 
-createBot();
+bot.on('spawn', () => {
+  bot.chat('/register 987521 987521')
+})
